@@ -1,0 +1,37 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 20vh 10vh 20vh 10vh;
+    background-image: url('../../assets/img/BCK1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .main{
+        width: 100%;
+        height: 100%;
+        padding: 20vh 0vh 20vh 0vh;
+        background-image: url('../../assets/img/BCK1.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mainTitle{
+        font-size: 5vh;
+    }
+}
+
+.view{
+    color: white;
+}
+
+.objects{
+    margin-top: 4vh;
+}
+
+hr{
+
+    background-color: white;
+}

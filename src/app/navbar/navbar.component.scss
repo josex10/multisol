@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    ul{
+        background-color: white;
+    }
+    a{
+        color: black !important;
+    }
+}
+@media (min-width: 768px) {
+    a{
+        color: white !important;
+    }
+}
+
+li{
+    margin-left: 1vw;
+}

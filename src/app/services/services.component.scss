@@ -1,0 +1,65 @@
+.main{
+    width: 100vw !important;
+}
+
+.containerCards{
+    padding-top: 11vh;
+}
+
+.customCard{
+    height: 45vh;
+    width: 100%;
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+
+.cardText{
+    padding: 2vw;
+}
+
+.cardServices{
+    background-image: url(../../assets/shutterstock/stock-photo-group-of-business-people-working-in-the-office-concept-374127247.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-title{
+    font-size: 7vh;
+}
+
+.cardServicesMensajeria{
+    background-image: url(../../assets/shutterstock/stock-photo-delivery-man-ride-motorcycle-service-fast-and-free-transport-744808339.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardMarketing{
+    background-image: url(../../assets/shutterstock/stock-photo-portrait-of-beautiful-saleswoman-standing-arms-crossed-at-counter-in-butcher-s-shop-163929668.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardMiscelaneus{
+    background-image: url(../../assets/shutterstock/stock-photo-cleaning-lady-with-a-bucket-and-cleaning-products-on-blurred-background-752459383.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardAdministrative{
+    background-image: url(../../assets/shutterstock/stock-photo-view-at-business-people-discussing-a-strategy-and-working-together-in-office-744665575.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardCallCenter{
+    background-image: url(../../assets/shutterstock/stock-photo-positive-female-customer-services-agent-with-headset-working-in-a-call-center-666256996.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

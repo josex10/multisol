@@ -1,0 +1,21 @@
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 20vh 10vh 0vh 10vh;
+    background-color: white;
+}
+
+.parrafo{
+    margin-top: 3vh;
+}
+
+.mainTitle{
+    font-family: 'Indie Flower', cursive;
+    font-size: 7vh;
+}
+
+@media (max-width: 768px) {
+    .main{
+        padding: 20vh 0vh 20vh 0vh;
+    }
+}

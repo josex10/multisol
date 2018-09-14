@@ -1,0 +1,50 @@
+.view {
+    height: 100vh !important;
+    width: 100vw !important;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+hr{
+    background-color: white;
+}
+
+.introTitulo{
+    font-family: 'Playfair Display SC', serif;
+    color: white;
+}
+
+.introSlogan{
+    font-family: 'Chathura', sans-serif;
+    font-size: 6vh;
+}
+
+.services{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .introTitulo{
+        font-size: 8vh;
+    }
+    .introSlogan{
+        font-size: 6vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .introTitulo{
+        font-size: 5vh;
+    }
+    .introSlogan{
+        font-size: 4vh;
+    }
+}

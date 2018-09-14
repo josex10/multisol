@@ -1,0 +1,105 @@
+ <div class="row">
+        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+
+            <div [ngClass] ="animationCls1" (mouseover)="changeStyle($event, 1)" (mouseout)="changeStyle($event, 1)"  class="card card-image mb-3 animated wow" style="background-image: url(../../assets/img/services/services1.jpg);">
+
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h3 class="card-title pt-2"><strong>MENSAJERÍA Y LOGÍSTICA</strong></h3>
+                        <p>
+                            Contamos con un equipo de mensajeros que se encargan del contacto personalizado con los clientes de nuestros socios.
+                        </p>
+                        <a mdbBtn color="pink" class="waves-light" mdbWavesEffect routerLink="/service1" ><i class="fa fa-book left"></i> Leer más...</a>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col-md-4" class="col-md-4 wow fadeInDown" data-wow-delay="0.3s">
+            <!-- Card -->
+            <div class="mb-3 wow">
+
+                <!-- Content -->
+                <!--TITULO-->
+                <div class="row titulo">
+                    <div class="col-md-12 text-center">
+                        <span>
+                            NUESTROS SERVICIOS
+                        </span>
+                        <hr>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col-md-4" class="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
+            <!-- Card -->
+            <div [ngClass] ="animationCls3" (mouseover)="changeStyle($event, 3)" (mouseout)="changeStyle($event, 3)"  class="card card-image mb-3 animated wow" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
+
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h3 class="card-title pt-2"><strong>SERVICIOS ADMINISTRATIVOS</strong></h3>
+                        <p>Contamos con profesionales expertos en las diversas áreas administrativas.</p>
+                        <a mdbBtn color="pink" class="waves-light" (click)="basicModal.show()" routerLink="/service1" mdbWavesEffect><i class="fa fa-book left"></i> Leer más...</a>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Card -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+            <!-- Card -->
+            <div [ngClass] ="animationCls4" (mouseover)="changeStyle($event, 4)" (mouseout)="changeStyle($event, 4)"  class="card card-image mb-3 animated wow" style="background-image: url(../../assets/img/services/services4.jpg);">
+
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h3 class="card-title pt-2"><strong>SERVICIOS MISCELÁNEOS</strong></h3>
+                        <p>Nuestro personal cuenta con altos valores morales que harán de su oficina un espacio cómodo y agradable.</p>
+                        <a mdbBtn color="pink" class="waves-light" routerLink="/service1" mdbWavesEffect><i class="fa fa-book left"></i> Leer más...</a>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col-md-4" class="col-md-4 wow fadeInDown" data-wow-delay="0.3s">
+            <!-- Card -->
+            <div [ngClass] ="animationCls5" (mouseover)="changeStyle($event, 5)" (mouseout)="changeStyle($event, 5)"  class="card card-image mb-3 animated wow" style="background-image: url(../../assets/img/services/services2.jpg);">
+
+                <!-- Content -->
+                <div  class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 ">
+                    <div>
+                        <h3 class="card-title pt-2"><strong>CALL CENTER</strong></h3>
+                        <p>Contamos con estaciones de trabajo, software, sistema de reportes y personal capacitado.</p>
+                        <a mdbBtn color="pink" class="waves-light" routerLink="/service1" mdbWavesEffect><i class="fa fa-book left"></i> Leer más...</a>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Card -->
+        </div>
+        <div class="col-md-4" class="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
+            <!-- Card -->
+            <div [ngClass] ="animationCls6" (mouseover)="changeStyle($event, 6)" (mouseout)="changeStyle($event, 6)"  class="card card-image mb-3 animated wow" style="background-image: url(../../assets/img/services/services5.jpg);">
+
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+                    <div>
+                        <h3 class="card-title pt-2"><strong>MERCADEO</strong></h3>
+                        <p>Complementamos e impulsamos su área de Mercadeo mediante la exposición de su marca.</p>
+                        <a mdbBtn color="pink" class="waves-light" routerLink="/service1" mdbWavesEffect><i class="fa fa-book left"></i> Leer más...</a>
+                    </div>
+                </div>
+                <!-- Content -->
+            </div>
+            <!-- Card -->
+        </div>
+    </div>

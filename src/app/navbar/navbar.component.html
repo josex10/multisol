@@ -1,0 +1,60 @@
+<header class="h-100">
+    <mdb-navbar SideClass='navbar fixed-top navbar-expand-lg navbar-dark transparent scrolling-navbar rgba-black-strong' [containerInside]="true">
+
+        <mdb-navbar-brand>
+            <a class="navbar-brand" href="#">
+                <img src="../../assets/img/logoOriginal.png" height="80" alt="">
+            </a>
+        </mdb-navbar-brand>
+
+        <!-- Collapsible content -->
+        <links>
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link waves-light" routerLink="/index" mdbWavesEffect><i class="fa fa-home" aria-hidden="true"></i>INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-light" routerLink="/ourus" mdbWavesEffect><i class="fa fa-id-card" aria-hidden="true"></i>NOSOTROS</a>
+                </li>
+
+                
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+                        <i class="fa fa-list" aria-hidden="true"></i>SERVICIOS<span class="caret"></span></a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/service1">MENSAJERÍA Y LOGÍSTICA</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/service1">SERVICIOS ADMINISTRATIVOS</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/service1">SERVICIOS MISCELÁNEOS</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/service1">CALL CENTER</a>
+                        <a class="dropdown-item waves-light" mdbWavesEffect routerLink="/service1">MERCADEO</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link waves-light" routerLink="/contact" mdbWavesEffect><i class="fa fa-phone" aria-hidden="true"></i>CONTÁCTENOS</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a mdbBtn floating="true" size="sm" class="btn-fb waves-light" mdbWavesEffect>
+                        <i class="fa fa-facebook"> </i>
+                    </a>
+
+                    <a mdbBtn floating="true" size="sm" class="btn-yt waves-light" mdbWavesEffect>
+                        <i class="fa fa-youtube"> </i>
+                    </a>
+                    <a mdbBtn floating="true" size="sm" class="btn-li waves-light" mdbWavesEffect>
+                        <i class="fa fa-linkedin"> </i>
+                    </a>
+                    <a mdbBtn floating="true" size="sm" class="btn-ins waves-light" mdbWavesEffect>
+                        <i class="fa fa-instagram"> </i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Links -->
+        </links>
+        <!-- Collapsible content -->
+
+    </mdb-navbar>
+</header>
+<!--/.Navbar--> 
